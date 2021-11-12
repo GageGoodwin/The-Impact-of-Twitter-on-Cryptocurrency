@@ -3,7 +3,7 @@ from requests import Request, Session
 import json
 import pprint
 
-url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
+url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/historical'
 
 parameters = {
     'slug':'bitcoin',
