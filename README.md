@@ -1,5 +1,6 @@
 # Data-Science-Project
 CS 418 - Semester long Data Science Project
+# Harsh's first commit
 
 ## Important Links
 [Final Project Information](https://docs.google.com/document/d/1iMmcJpgQAO5lYcqyx8f_2vpDmmMjbwcHVjNW2Uw66wA/edit)  
