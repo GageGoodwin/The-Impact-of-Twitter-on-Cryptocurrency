@@ -1,1 +1,3 @@
 validation.py
+*.pyc
+__pycache__/
