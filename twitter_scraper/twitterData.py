@@ -4,7 +4,20 @@ import json
 import pprint
 import csv
 import datetime
+import twint
 
+
+#This function can be configured specify tweets from a specific user based on certain search keywords, dates, etc
+def scrapeTweets():
+    # Configure
+    c = twint.Config()
+    c.Username = "elonmusk"
+    c.Search = "bitcoin"
+    c.Store_csv = True
+    c.Output = "elonTweets.csv"
+    c.Limit = 100
+    # Run
+    twint.run.Search(c)
 
 def get_tweets():
         # Authorization to consumer key and consumer secret
