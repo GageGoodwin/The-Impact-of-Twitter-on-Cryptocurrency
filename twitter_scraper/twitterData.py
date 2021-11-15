@@ -35,8 +35,8 @@ def get_tweets():
         
         
         # This code print out the first tweet pulled in JSON format
-         data = tweets[0]._json
-         pprint.pprint(data["created_date"])
+        data = tweets[0]._json
+        pprint.pprint(data["created_date"])
         # Empty Array
 
         #tmp=[] 
