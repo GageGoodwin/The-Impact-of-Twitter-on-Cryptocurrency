@@ -1,4 +1,4 @@
-# Data-Science-Project
+# The Magnitudinal Impact of Twitter on Cryptocurrency prices
 CS 418 - Semester long Data Science Project
 Birds are not real. 
 Harsh's commit
