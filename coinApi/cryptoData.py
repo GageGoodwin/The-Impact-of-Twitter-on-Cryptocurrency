@@ -174,7 +174,7 @@ def dogecoinAll():
     data = json.loads(data_text)
     
     # now we will open a file for writing
-    data_file = open('dogecoinAll_1HR.csv', 'w')
+    data_file = open('bitcoin_history_rates_apr21-jul21.csv', 'w')
     
     # create the csv writer object
     csv_writer = csv.writer(data_file)
@@ -197,4 +197,7 @@ def dogecoinAll():
     data_file.close()
 
 
-bitcoinAll()
+
+
+dogecoin()
+
