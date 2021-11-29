@@ -22,7 +22,7 @@ for date in df_filteredElon['date']:
 
     
 
-print(sum(percentChangeList) / len(percentChangeList))
+print("Average price fluctuation from Elon Musk's crpyto related tweets: " + str(sum(percentChangeList) / len(percentChangeList)))
 
 plt.figure(figsize=(30,10))
 plt.scatter(dateList,percentChangeList)
