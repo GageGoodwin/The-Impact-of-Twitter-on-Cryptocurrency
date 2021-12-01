@@ -28,4 +28,3 @@ plt.figure(figsize=(30,10))
 plt.scatter(dateList,percentChangeList)
 plt.xticks(rotation=90)
 plt.show()
-
