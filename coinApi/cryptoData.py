@@ -26,6 +26,7 @@ def dogecoin():
     response = session.get(url, timeout=10)
     session.close()
     data_text = ''
+    # check if request went through
     if response.status_code == 200:
         #print(response.text)
         data_text = response.text
@@ -72,6 +73,7 @@ def bitcoin():
     response = session.get(url, timeout=10)
     session.close()
     data_text = ''
+    # check if request went through
     if response.status_code == 200:
         #print(response.text)
         data_text = response.text
@@ -118,6 +120,7 @@ def bitcoinAll():
     response = session.get(url, timeout=100)
     session.close()
     data_text = ''
+    # check if request went through
     if response.status_code == 200:
         #print(response.text)
         data_text = response.text
@@ -163,6 +166,7 @@ def dogecoinAll():
     response = session.get(url, timeout=100)
     session.close()
     data_text = ''
+    # check if request went through
     if response.status_code == 200:
         #print(response.text)
         data_text = response.text
